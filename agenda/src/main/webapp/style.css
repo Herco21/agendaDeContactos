@@ -1,0 +1,80 @@
+body {
+	background-color: grey;
+	text-align: center;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	background-color: #800000;
+	border: 1px solid;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+input {
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: grey;
+}
+
+form {
+	margin: auto;
+}
+
+button {
+	margin-top: 50px;
+	background-color: #800000;
+}
+
+table, tr {
+	border: 1px solid;
+}
+
+table {
+	background-color: #800000;
+	margin: auto;
+	margin-top: 100px;
+}
+
+td {
+	background-color: grey;
+}
+
+th {
+	color: white;
+}
+
+.editar {
+	background-color: #00ffff;
+	padding: 0;
+	border: none;
+	color: black;
+}
+
+.excluir {
+	background-color: red;
+	padding: 0;
+	border: none;
+	color: black;
+}
+
+td:nth-of-type(5) {
+	background-color: #00ffff;
+	cursor: pointer;
+}
+
+td:nth-of-type(6) {
+	background-color: red;
+	cursor: pointer;
+}
+
+.readonly {
+	border: none;
+}
